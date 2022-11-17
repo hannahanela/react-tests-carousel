@@ -81,7 +81,7 @@ it("works when you click on the left arrow", function() {
   ).toBeInTheDocument();
 
   // move backwards in the carousel
-  const leftArrow = container.querySelector(".bi-arrow-left-cirlce");
+  const leftArrow = container.querySelector(".bi-arrow-left-circle");
   fireEvent.click(leftArrow);
 
   // expect the first image to show, but not the second
